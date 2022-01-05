@@ -53,6 +53,26 @@ h1, h2, h3, h4,h5,h6{
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.company{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  margin-top: 150px;
+  padding: 0 5%;
+}
+.company img{
+  border-radius: 50%;
+  padding-right: 40px;
+}
+.company h2{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.company p small{
+  color: #457b9d;
+}
+
 .about-us{
   width: 100%;
   height: 80vh;
@@ -144,9 +164,9 @@ h1, h2, h3, h4,h5,h6{
 .clint-revw{
   width: 100%;
   height: 80vh;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 0 5%;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .clint-revw h1{
   text-align: center;
