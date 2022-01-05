@@ -205,3 +205,74 @@ h1, h2, h3, h4,h5,h6{
   border-radius: 50%;
   margin-left: 200px;
 }
+
+.contact{
+  width: 100%;
+  height: 80vh;
+  padding: 0 5%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.address{
+  width: 40%;
+  background-color: #B4D9D9;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 15px;
+
+}
+.address h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
+.address h4{
+  margin-bottom: 15px;
+}
+.form{
+  width: 50%;
+  margin:auto;
+}
+.form input{
+  background-color: transparent;
+  border: 1px solid #999797;
+  outline: none;
+  padding: 7px 0;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+.form textarea{
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #999797;
+  outline: none;
+  padding: 7px 5px;
+  border-radius: 5px;
+}
+.form h3{
+  font-size: 44px;
+  padding-bottom: 20px;
+}
+.input-flex{
+  display: flex;
+  justify-content: space-between;
+}
+hr{
+  width: 70%;
+  display: block;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+}
+.submit{
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #c25251;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
