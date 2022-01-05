@@ -15,7 +15,8 @@ h1, h2, h3, h4,h5,h6{
 .hero{
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
 }
 .hero-text{
   width: 45%;
@@ -23,6 +24,16 @@ h1, h2, h3, h4,h5,h6{
 }
 .text-color{
   color: #457B9D;
+}
+.button{
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #c25251;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 40px;
 }
 .hero-text h1{
   font-size: 70px;
@@ -40,4 +51,92 @@ h1, h2, h3, h4,h5,h6{
   border-radius: 40px;
   background-color: #d9e0d570;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.about-us{
+  width: 100%;
+  height: 80vh;
+  margin-top: 60px;
+  padding: 0 5%;
+}
+.about-text h1{
+  text-align: center;
+  font-size: 50px;
+  color: #1d3557;
+  font-weight: 700;
+  line-height: 55px;
+}
+.about-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.box-1{
+  width: 30%;
+  background-color: #999797;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+}
+.box-2{
+  width: 30%;
+  background-color: #6FA6A6;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+}
+.box-3{
+  width: 30%;
+  background-color: #B4D9D9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+}
+.box-1 img{
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.box-2 img{
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.box-3 img{
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.box-1 h3{
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.box-1 h3{
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.box-2 h3{
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.box-3 h3{
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
 }
