@@ -276,3 +276,18 @@ hr{
   text-align: center;
   margin-top: 10px;
 }
+
+footer{
+  padding: 20px 0;
+  background-color: #000;
+  text-align: center;
+}
+footer p{
+  color: #fff;
+  font-weight: 400;
+}
+footer h4{
+  color: #fff;
+  font-weight: 400;
+  margin-top: 5px;
+}
