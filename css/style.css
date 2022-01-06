@@ -282,11 +282,11 @@ footer{
   background-color: #000;
   text-align: center;
 }
-footer p{
+footer h5{
   color: #fff;
   font-weight: 400;
 }
-footer h4{
+footer p{
   color: #fff;
   font-weight: 400;
   margin-top: 5px;
