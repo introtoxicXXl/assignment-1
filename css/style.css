@@ -47,7 +47,7 @@ h1, h2, h3, h4,h5,h6{
 .hero-image{
   width: 45%;
   margin-right: 5%;
-  padding-left: 50px;
+  padding-left: 160px;
 }
 .hero-image img{
   width: 450px;
@@ -265,7 +265,7 @@ h1, h2, h3, h4,h5,h6{
   border-radius: 5px;
 }
 .form h3{
-  font-size: 41px;
+  font-size: 54px;
   padding-bottom: 20px;
   width: 100%;
   text-align: center;
