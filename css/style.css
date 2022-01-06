@@ -66,6 +66,7 @@ h1, h2, h3, h4,h5,h6{
 }
 .company-img{
   width: 45%;
+  margin: 0 auto;
 }
 .company-text{
   width: 48%;
@@ -178,7 +179,6 @@ h1, h2, h3, h4,h5,h6{
   height: 80vh;
   margin-top: 100px;
   padding: 0 5%;
-  margin-bottom: 100px;
 }
 .clint-revw h1{
   text-align: center;
