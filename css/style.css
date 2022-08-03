@@ -6,7 +6,7 @@
   font-family: 'Maven Pro', sans-serif;
 }
 body{
-  background-color: #f3fff6;
+  background-color: #eafbee;
 }
 h1, h2, h3, h4,h5,h6{
   font-family: 'Metrophobic', sans-serif;
@@ -16,13 +16,10 @@ h1, h2, h3, h4,h5,h6{
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   justify-content: space-between;
 }
-.hero-text{
-  width: 45%;
-  margin-left: 5%;
-}
+
 .text-color{
   color: #457B9D;
 }
@@ -44,15 +41,12 @@ h1, h2, h3, h4,h5,h6{
   width: 80%;
   margin: 0 auto;
 }
-.hero-image{
-  width: 45%;
-  margin-right: 5%;
-  padding-left: 160px;
-}
+
 .hero-image img{
   width: 450px;
   border-radius: 40px;
   background-color: #d9e0d570;
+  margin-right: 0 !important;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
