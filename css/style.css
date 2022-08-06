@@ -1,28 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Metrophobic&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Maven Pro', sans-serif;
 }
-body{
+
+body {
   background-color: #eafbee;
 }
-h1, h2, h3, h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Metrophobic', sans-serif;
   color: #1D3557;
 }
 
-.text-color{
+.text-color {
   color: #457B9D;
 }
-.hero-text h1{
+
+.hero-text h1 {
   font-size: 70px;
   font-weight: 700;
   border-left: 10px solid #3c6382;
   padding-left: 20px;
 }
-.button{
+
+.button {
   text-decoration: none;
   color: white;
   border: 0;
@@ -33,80 +43,70 @@ h1, h2, h3, h4,h5,h6{
   margin-top: 40px;
   margin-left: 20px;
 }
-.hero-image img{
+
+.hero-image img {
   width: 450px;
   border-radius: 40px;
   background-color: #d9e0d570;
   margin-right: 0 !important;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.company-img img{
+
+.company-img img {
   border-radius: 50%;
 }
-.company-text h2{
+
+.company-text h2 {
   font-size: 40px;
   font-weight: 700;
 }
-.company-text p{
+
+.company-text p {
   text-align: justify;
 }
-.box-1{
+
+.box-1 {
   background-color: #999797 !important;
   border-radius: 10px !important;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.box-2{
+
+.box-2 {
   background-color: #6FA6A6 !important;
   border-radius: 10px !important;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.box-3{
+
+.box-3 {
   background-color: #B4D9D9 !important;
   border-radius: 10px !important;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.clint-text p{
+
+.clint-text p {
   color: #457b9d;
   font-weight: 700;
 }
-.img-1{
-  border-radius: 50%;
-}
-.img-2{
+
+.img-1 {
   border-radius: 50%;
 }
 
-.contact{
-  width: 100%;
-  height: 80vh;
-  padding: 0 5%;
-  display: flex;
-  align-items: center;
+.img-2 {
+  border-radius: 50%;
 }
-.address{
-  width: 40%;
+
+.address {
   background-color: #B4D9D9;
   padding: 15px 25px;
   text-align: center;
   border-radius: 15px;
+}
 
-}
-.address h3{
-  font-weight: bold;
-  text-align: center;
-  font-size: 35px;
-}
-.address h4{
-  margin-bottom: 15px;
-}
-.form{
-  width: 50%;
-  margin:auto;
-}
-.form input{
+.form input {
   background-color: transparent;
   border: 1px solid #999797;
   outline: none;
@@ -116,7 +116,8 @@ h1, h2, h3, h4,h5,h6{
   margin: 15px 0px;
   width: 32%;
 }
-.form textarea{
+
+.form textarea {
   width: 100%;
   background-color: transparent;
   border: 1px solid #999797;
@@ -124,25 +125,8 @@ h1, h2, h3, h4,h5,h6{
   padding: 7px 5px;
   border-radius: 5px;
 }
-.form h3{
-  font-size: 54px;
-  padding-bottom: 20px;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-}
-.input-flex{
-  display: flex;
-  justify-content: space-between;
-}
-hr{
-  width: 70%;
-  display: block;
-  margin: auto;
-  background-color: rgb(0, 0, 0);
-  outline: none;
-}
-.submit{
+
+.submit {
   text-decoration: none;
   color: white;
   padding: 10px 40px;
@@ -153,16 +137,18 @@ hr{
   margin-top: 10px;
 }
 
-footer{
+footer {
   padding: 20px 0;
   background-color: #000;
   text-align: center;
 }
-footer h5{
+
+footer h5 {
   color: #fff;
   font-weight: 400;
 }
-footer p{
+
+footer p {
   color: #fff;
   font-weight: 400;
   margin-top: 5px;
