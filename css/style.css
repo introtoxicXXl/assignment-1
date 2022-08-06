@@ -12,16 +12,15 @@ h1, h2, h3, h4,h5,h6{
   font-family: 'Metrophobic', sans-serif;
   color: #1D3557;
 }
-.hero{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 90vh;
-  justify-content: space-between;
-}
 
 .text-color{
   color: #457B9D;
+}
+.hero-text h1{
+  font-size: 70px;
+  font-weight: 700;
+  border-left: 10px solid #3c6382;
+  padding-left: 20px;
 }
 .button{
   text-decoration: none;
@@ -34,15 +33,6 @@ h1, h2, h3, h4,h5,h6{
   margin-top: 40px;
   margin-left: 20px;
 }
-.hero-text h1{
-  font-size: 70px;
-  font-weight: 700;
-  border-left: 10px solid #3c6382;
-  padding-left: 20px;
-  width: 80%;
-  margin: 0 auto;
-}
-
 .hero-image img{
   width: 450px;
   border-radius: 40px;
@@ -50,45 +40,21 @@ h1, h2, h3, h4,h5,h6{
   margin-right: 0 !important;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-
-.company{
-  display: flex;
-  width: 100%;
-  height: 90vh;
-  margin-top: 150px;
-  justify-content: space-between;
-}
-.company-img{
-  width: 100%;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px !important;
-}
-.company-text{
-  /* width: 48%; */
-  margin-top: 50px !important;
-  padding: 0 20px;
-}
-.company img{
+.company-img img{
   border-radius: 50%;
 }
-.company h2{
+.company-text h2{
   font-size: 40px;
   font-weight: 700;
 }
-.company p{
+.company-text p{
   text-align: justify;
-}
-.company p small{
-  color: #457b9d;
 }
 
 .about-us{
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   margin-top: 60px;
-  padding: 0 5%;
 }
 .about-text h1{
   text-align: center;
@@ -104,13 +70,12 @@ h1, h2, h3, h4,h5,h6{
   margin-top: 50px;
 }
 .box-1{
-  width: 30%;
+  width: 30% ;
   background-color: #999797;
   border-radius: 10px;
   padding: 20px;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  cursor: pointer;
 }
 .box-2{
   width: 30%;
@@ -119,7 +84,6 @@ h1, h2, h3, h4,h5,h6{
   padding: 20px;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  cursor: pointer;
 }
 .box-3{
   width: 30%;
@@ -128,7 +92,6 @@ h1, h2, h3, h4,h5,h6{
   padding: 20px;
   text-align: justify;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  cursor: pointer;
 }
 .box-1 img{
   display: block;
